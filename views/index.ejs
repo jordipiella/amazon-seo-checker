@@ -1,0 +1,13 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 text-center">
+        <h1><%= title %></h1>
+        <form action="/check-product" method="POST">
+          <input class="form-control" type="text" value="https://www.amazon.es/dp/B00J9EGX7C/ref=sr_1_1?m=A3DI1AFGF7DDIE&s=tools&ie=UTF8&qid=1501008526&sr=1-1" name="urlToCheck" placeholder="Paste url of your product page from Amazon"/>
+          <button class="btn btn-primary" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
